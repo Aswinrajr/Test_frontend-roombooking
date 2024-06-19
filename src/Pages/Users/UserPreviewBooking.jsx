@@ -133,7 +133,7 @@ const UserPreviewBooking = () => {
     const createChatRoom = await createRoom(receiverId, senderId, bookingId);
     console.log("createChatRoom", createChatRoom);
     if (createChatRoom.statusText) {
-      navigate("/chat", { state: data });
+      navigate("https://test-frontend-roombooking.vercel.app//chat", { state: data });
     }
   };
 
