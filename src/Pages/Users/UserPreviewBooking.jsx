@@ -289,7 +289,7 @@ const UserPreviewBooking = () => {
                     </div>
                   </div>
                 </div>
-                <h1 onClick={()=>navigate("/chat")} >chat</h1>
+            
               </div>
             );
           }
