@@ -132,7 +132,7 @@ const UserPreviewBooking = () => {
     const data = { receiverId, senderId, bookingId };
     const createChatRoom = await createRoom(receiverId, senderId, bookingId);
     console.log("createChatRoom", createChatRoom);
-    if (createChatRoom.statusText) {
+    if (createChatRoom.status===200) {
       navigate("/chat", { state: data });
     }
   };
