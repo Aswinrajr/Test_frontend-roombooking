@@ -283,19 +283,13 @@ const UserPreviewBooking = () => {
                         className="py-2 px-4 rounded-md bg-blue-500 hover:bg-blue-600 text-white font-semibold focus:outline-none focus:ring-2 focus:ring-blue-500 flex items-center"
                       >
                         <FaCommentAlt className="mr-2" />
-                        Chat
+                        Chats
                       </button>
-                      <button
-                        onClick={() => navigate("https://test-frontend-roombooking.vercel.app/chat")
-                        }
-                        className="py-2 px-4 rounded-md bg-blue-500 hover:bg-blue-600 text-white font-semibold focus:outline-none focus:ring-2 focus:ring-blue-500 flex items-center"
-                      >
-                        <FaCommentAlt className="mr-2" />
-                        Chat
-                      </button>
+                     
                     </div>
                   </div>
                 </div>
+                <h1 onClick={()=>navigate("https://test-frontend-roombooking.vercel.app/chat")} >chat</h1>
               </div>
             );
           }
