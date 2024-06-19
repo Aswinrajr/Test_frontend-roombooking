@@ -285,6 +285,14 @@ const UserPreviewBooking = () => {
                         <FaCommentAlt className="mr-2" />
                         Chat
                       </button>
+                      <button
+                        onClick={() => navigate("https://test-frontend-roombooking.vercel.app/chat")
+                        }
+                        className="py-2 px-4 rounded-md bg-blue-500 hover:bg-blue-600 text-white font-semibold focus:outline-none focus:ring-2 focus:ring-blue-500 flex items-center"
+                      >
+                        <FaCommentAlt className="mr-2" />
+                        Chat
+                      </button>
                     </div>
                   </div>
                 </div>
